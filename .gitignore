@@ -1,4 +1,13 @@
-
-fastapi
-uvicorn[standard]
-python-multipart
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+.pytest_cache/
